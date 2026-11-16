@@ -4,8 +4,8 @@
 # Reference: https://docs.github.com/en/code-security/reference/supply-chain-security/dependabot-options-reference
 version: 2
 updates:
+
   - package-ecosystem: 'npm'
-    # the root and the source of the tile editor of the admin (built into admin/custom)
     directories:
       - '/'
       - '/src-admin'
